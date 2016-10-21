@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://use.fontawesome.com/d22d361a2c.js"></script>
+	<link rel="icon" href="images/icon.png">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet">
+	<link href="css/hover.css" rel="stylesheet" media="all">
+
+	<!-- bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<title>mamaRD</title>
+</head>
+
+<body>
+	
+	<!-- top bar -->
+	<div class="container-fluid" id="top">
+		<div id="topbar" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li>español</li>
+				<li>english</li>
+			</ul>
+
+			<!-- add social -->
+		</div>
+	</div>
+
+	<!-- end top bar-->
+	<!-- header -->
+	<div class="wrapper">
+		<div class="header">
+			<div class="row">
+				<div class="div col-md-2 col-xs-6">
+					<a href="index.html"><img class="logo" src="images/logo.png" alt="Logo"></a>
+				</div>
+
+				<div class="div col-md-offset-8 col-md-2 col-xs-6">
+					<p class="contact"> Yanet Olivares <br> IBCLC <br> LLLL <br> 809 604 8499 <br> yanet.olivares@gmail.com 
+					</p>
+				</div>
+
+				
+			</div>
+		</div>
+
+		<!-- end header -->
+
+		<div class="menu">
+			<div class="row">
+				<div class="div col-md-10">
+					<ul class="menu-nav">
+						<li><a href="#">QUIENES SOMOS</a></li>
+						<li><a href="#">ACTIVIDADES</a></li>
+						<li><a href="#">INFORMACIÓN</a></li>
+						<li><a href="#">HISTORIAS DE MAMIS</a></li>
+						<li><a href="#">TIENDA</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2  col-xs-12">
+					<input id="search" type="text" name="search">
+				</div>
+			</div>
+		</div>
+
+		<!-- start shop -->
+
+		<div class="shop">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="item col-md-offset-2 col-md-2">
+						item
+					</div>
+
+					<div class="item col-md-offset-1 col-md-2">
+						item 
+					</div>
+
+					<div class="item col-md-offset-1 col-md-2">
+						item 
+					</div>
+
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="item col-md-offset-2 col-md-2">
+						item
+					</div>
+
+					<div class="item col-md-offset-1 col-md-2">
+						item
+					</div>
+
+					<div class="item col-md-offset-1 col-md-2">
+					item 
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+
+					<div class="item col-md-offset-2 col-md-2">
+						item
+					</div>
+
+					<div class="item col-md-offset-1 col-md-2">
+						item
+					</div>
+
+					<div class="item col-md-offset-1 col-md-2">
+						item
+					</div>
+				</div>
+
+			</div>
+
+
+		</div>
+	</div>		
+
+
+</div>
+
+</div>
+
+<!-- start footer -->
+
+<footer>
+	Yanet Olivares © 2016
+</footer>
+</body>
