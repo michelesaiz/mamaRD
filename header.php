@@ -3,12 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/style.css">
 	<script src="https://use.fontawesome.com/d22d361a2c.js"></script>
-	<link rel="icon" href="images/icon.png">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet">
-	<link href="css/hover.css" rel="stylesheet" media="all">
+
+	<link href="<?php echo get_template_directory_uri(); ?>/css/reset.css" rel="stylesheet" media="all">
+	<link href="<?php echo get_template_directory_uri(); ?>/style.css" rel="stylesheet" media="all">
+	<link href="<?php echo get_template_directory_uri(); ?>/css/hover.css" rel="stylesheet" media="all">
 
   <!-- jquery -->
   <script
@@ -49,15 +49,13 @@
 		<div class="header">
 			<div class="row">
 				<div class="div col-md-2 col-xs-6">
-					<a href="index.html"><img class="logo" src="//images/logo.png" alt="Logo"></a>
+					<a href="index.html"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="Logo"></a>
 				</div>
 
-				<div class="div col-md-offset-8 col-md-2 col-xs-6">
+        <div class="div col-md-offset-8 col-md-2 col-xs-6">
 					<p class="contact"> Yanet Olivares <br> IBCLC <br> LLLL <br> 809 604 8499 <br> yanet.olivares@gmail.com
 					</p>
 				</div>
-
-
 			</div>
 		</div>
 
@@ -79,9 +77,4 @@
 				</div>
 			</div>
 		</div>
-
-		<div class="body-content">
-
-		</div>
-
 	</div>
