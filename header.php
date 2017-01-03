@@ -60,17 +60,11 @@
 		</div>
 
 		<!-- end header -->
-
 		<div class="menu">
 			<div class="row">
 				<div class="div col-md-10">
-					<ul class="menu-nav">
-						<li><a href="#">QUIENES SOMOS</a></li>
-						<li><a href="#">ACTIVIDADES</a></li>
-						<li><a href="#">INFORMACIÓN</a></li>
-						<li><a href="#">HISTORIAS DE MAMIS</a></li>
-						<li><a href="#">TIENDA</a></li>
-					</ul>
+			    <?php wp_nav_menu(array(
+						'menu_class' => 'menu-nav')); ?>
 				</div>
 				<div class="col-md-2  col-xs-12">
 					<input id="search" type="text" name="search">
